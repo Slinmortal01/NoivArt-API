@@ -1,4 +1,4 @@
 # React + TypeScript + Vite
 
-** Front-end utilizando MaterialUI e Bootstrap ** 
+* Front-end utilizando MaterialUI e Bootstrap 
 
