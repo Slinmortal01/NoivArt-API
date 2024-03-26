@@ -1,0 +1,116 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: #d1e7dd;
+}
+
+h5 {
+  font-size: 1.2em;
+  line-height: 1.1;
+  color: #2d2d29;
+}
+
+.navbar {
+  background-color: #92c7a3;
+}
+
+#navbar-div-app {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.container {
+  margin-top: 2%;
+}
+
+#nome_convidado {
+  padding-top: 10px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  border-spacing: 8px;
+  width: 100%;
+}
+
+td,
+th,
+tr {
+  padding: 15px;
+  background-color: #92c7a3;
+  height: 30px;
+  justify-content: space-between;
+}
+
+#img-span {
+  float: left;
+  padding-top: 12px;
+}
+
+#text-span {
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 8px;
+}
+
+#confirmation-span {
+  display: inline-block;
+  margin-right: 5%;
+}
+
+input {
+  align-items: center;
+}
+
+#icon-div {
+  background: #5abe79;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 40px;
+  right: 35px;
+  z-index: 1;
+}
+
+.icons {
+  padding: 18px;
+}
+
+#list-div-app {
+  width: 70%;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+#add-icon-div {
+  background: #5abe79;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 130px;
+  right: 35px;
+  z-index: 1;
+}
+
+@media screen and (max-width: 1200px){
+    #list-div-app{
+      width: 100%;
+    }
+}
